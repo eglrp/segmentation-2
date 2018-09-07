@@ -1,0 +1,3 @@
+THEANO_FLAGS=device=gpu,floatX=float32 python3 predict.py --save_weights_path="/media/buiduchanh/STUDY/Javis/Workspace/image-segmentation-keras/weight/27_model_.h5" --epoch_number=0 --test_images="/media/buiduchanh/STUDY/Javis/Workspace/image-segmentation-keras/data/dataset1/data/" --output_path="/media/buiduchanh/STUDY/Javis/Workspace/image-segmentation-keras/data/dataset1/result/" --n_classes=10 --model_name="vgg_segnet"
+
+THEANO_FLAGS=device=gpu,floatX=float32 python3 train.py --train_images="data/dataset1/images_prepped_train/" --train_annotations="data/dataset1/annotations_prepped_train/" --val_images="data/dataset1/images_prepped_test/" --val_annotations="data/dataset1/annotations_prepped_test/" --n_classes=10 --model_name="vgg_segnet" --save_weights_path="weight/"

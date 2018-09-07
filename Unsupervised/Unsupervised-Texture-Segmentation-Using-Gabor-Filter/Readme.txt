@@ -1,0 +1,1 @@
+python3 gabor.py -infile /home/khach/hanh/Galbor/test_image/test.jpg -outfile out_1.png -k 16 -gk 17 -M 35 -sigma 7 -spw 2

@@ -1,0 +1,6 @@
+*.pyc
+baseline-resnet50_dilated8-ppm_bilinear_deepsup/*
+ckpt/
+vis/
+log/
+pretrained/
